@@ -3,7 +3,7 @@
 <a name="Welcome to HelpingHands"></a>
 
 # Welcome to HelpingHands👋
-At HelpingHands, It is a platform dedicated to helping individuals in need find employment opportunities nearby. Whether you are looking for full-time, part-time, or temporary work, we are here to assist you in your job search journey. Our mission is to empower the community by bridging the gap between job seekers and employers.
+At HelpingHands, a platform dedicated to helping individuals in need find employment opportunities nearby. Whether you are looking for full-time, part-time, or temporary work, we are here to assist you in your job search journey. Our mission is to empower the community by bridging the gap between job seekers and employers.
 
 
 <a name="demo"></a>
