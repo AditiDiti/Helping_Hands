@@ -34,24 +34,24 @@ const PostJob = () => {
         "https://helping-hands-job.onrender.com/api/v1/job/post",
         fixedSalary.length >= 4
           ? {
-              title,
-              description,
-              category,
-              country,
-              city,
-              location,
-              fixedSalary,
-            }
+            title,
+            description,
+            category,
+            country,
+            city,
+            location,
+            fixedSalary,
+          }
           : {
-              title,
-              description,
-              category,
-              country,
-              city,
-              location,
-              salaryFrom,
-              salaryTo,
-            },
+            title,
+            description,
+            category,
+            country,
+            city,
+            location,
+            salaryFrom,
+            salaryTo,
+          },
         {
           withCredentials: true,
           headers: {
@@ -76,6 +76,7 @@ const PostJob = () => {
     <>
       <div className="job_post page">
         <div className="container">
+          <img src="/JobZeelogo.png" alt="logo" />
           <h3>POST NEW JOB</h3>
           <form onSubmit={handleJobPost}>
             <div className="wrapper">
@@ -172,7 +173,7 @@ const PostJob = () => {
               </div>
             </div>
             <textarea
-              rows="10"
+              rows="2"
               value={description}
               onChange={(e) => setDescription(e.target.value)}
               placeholder="Job Description"

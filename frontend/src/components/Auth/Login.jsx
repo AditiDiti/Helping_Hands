@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { RiLock2Fill } from "react-icons/ri";
 import { Link, Navigate } from "react-router-dom";
@@ -14,14 +14,29 @@ const Login = () => {
 
   const { isAuthorized, setIsAuthorized } = useContext(Context);
 
+  useEffect(() => {
+    const images = document.querySelectorAll('.transition-image');
+    let currentImageIndex = 0;
+
+    const showNextImage = () => {
+      images[currentImageIndex].style.opacity = 0;
+      currentImageIndex = (currentImageIndex + 1) % images.length;
+      images[currentImageIndex].style.opacity = 1;
+    };
+
+    const intervalId = setInterval(showNextImage, 3000);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const {data} = await axios.post(
+      const { data } = await axios.post(
         "https://helping-hands-job.onrender.com/api/v1/user/login",
         { email, password, role },
         {
-         
+
           withCredentials: true,
         }
       );
@@ -35,8 +50,8 @@ const Login = () => {
     }
   };
 
-  if(isAuthorized){
-    return <Navigate to={'/'}/>
+  if (isAuthorized) {
+    return <Navigate to={'/'} />
   }
 
   return (
@@ -89,8 +104,18 @@ const Login = () => {
             <Link to={"/register"}>Register Now</Link>
           </form>
         </div>
-        <div className="banner">
-          <img src="/login.png" alt="login" />
+
+        <div className="transition-container">
+          <img className="transition-image" src="/registerpage/img1.jpg" alt="login" />
+          <img className="transition-image" src="/registerpage/img2.png" alt="login" />
+          <img className="transition-image" src="/registerpage/img3.jpg" alt="login" />
+          <img className="transition-image" src="/registerpage/img4.jpg" alt="login" />
+          <img className="transition-image" src="/registerpage/img5.jpg" alt="login" />
+          <img className="transition-image" src="/registerpage/img6.jpg" alt="login" />
+          <img className="transition-image" src="/registerpage/img7.jpg" alt="login" />
+          <img className="transition-image" src="/registerpage/img8.jpg" alt="login" />
+          <img className="transition-image" src="/registerpage/img9.jpg" alt="login" />
+          <img className="transition-image" src="/registerpage/img10.jpg" alt="login" />
         </div>
       </section>
     </>
