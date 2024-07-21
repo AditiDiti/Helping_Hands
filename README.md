@@ -68,18 +68,29 @@ The challenges faced by underprivileged groups such as electricians, plumbers, a
 
 ## Setup Instructions
 Please have node js and npm installed to open this project , from [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
 1.Fork the repo
+
 2.Create your own clone of this repo.
+
 3.Run npm i to install all the dependencies.
+
 4.Create a config.env file with all these data :
+
 PORT = 
+
 CLOUDINARY_NAME = 
+
 CLOUDINARY_API_KEY = 
+
 CLOUDINARY_API_SECRET = 
+
 FRONTEND_URL = 
+
 MONGO_URI = 
 
 JWT_SECRET_KEY = 
+
 JWT_EXPIRE = 
 
 COOKIE_EXPIRE = 
@@ -87,6 +98,7 @@ COOKIE_EXPIRE =
 5.Since the webiste is already hosted it has all the API calls set to the frontend or backend urls as needed , to run it on local machine please change the frontend url to your localhost URL and the backend url to your backend URL.
 
 6.Navigate to backend folder and run npm run dev on your terminal.
+
 7.Navigate to frontend folder and run npm run dev on your terminal.
 (make sure both the frontend and backend terminals are running)
 8.Your own local copy of helping hands is ready !
