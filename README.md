@@ -13,6 +13,9 @@ At HelpingHands, a platform dedicated to helping individuals in need find employ
 [Live Website](https://helping-hands-deployement2.netlify.app) can be found here.
 <br>
 [Click here](https://share.synthesia.io/4de7b22e-cfab-4f2d-9131-1d030e9c10ef) to get a brief idea of what Helping Hands is .
+<br>
+
+[Demo Video](https://youtu.be/3H0Y7zHUB0o)
 
  [Presentation](https://www.canva.com/design/DAGDHhIaNDA/PPvNH4KwRYimyqFOLGeZ1g/edit?utm_content=DAGDHhIaNDA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) 
 <br>
@@ -31,7 +34,7 @@ The goal of our project is to help individuals in need find employment opportuni
 - Easy access to employment opportunities
 - Wide range of job categories
 - Connect with local employers
-- User-friendly interface
+- User-friendly interface and responsive 
 - Real-time job updates
 - Secure and confidential job search
 - Opportunity to build professional network
