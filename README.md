@@ -14,9 +14,11 @@ At HelpingHands, a platform dedicated to helping individuals in need find employ
 
 <br>
 [Click here](https://share.synthesia.io/4de7b22e-cfab-4f2d-9131-1d030e9c10ef) to get a brief idea of what Helping Hands is .
+
 <br>
 
 [Demo Video](https://youtu.be/3H0Y7zHUB0o)
+<br>
 
  [Presentation](https://www.canva.com/design/DAGDHhIaNDA/PPvNH4KwRYimyqFOLGeZ1g/edit?utm_content=DAGDHhIaNDA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) 
 <br>
