@@ -101,6 +101,8 @@ COOKIE_EXPIRE =
 
 7.Navigate to frontend folder and run npm run dev on your terminal.
 (make sure both the frontend and backend terminals are running)
+
+
 8.Your own local copy of helping hands is ready !
 
 
